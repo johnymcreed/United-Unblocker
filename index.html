@@ -5,7 +5,6 @@
   <head>
     <title> United Unblocker </title>
     <meta charset="UTF-8">
-    <link rel="icon" type="image/png" href="local/unblogo.png">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="the-Imortal-crasher">
 
@@ -32,8 +31,15 @@
         <div class="search spaced">
            <form class="d-flex">
               <input class="form-control me-2 search-bar" type="search" placeholder="Search The Web (https://example.com)" aria-label="Search">
-              <button class="btn btn-outline-success" onclick="windows.location.href='?q='" type="submit">Search</button>
+              <button class="btn btn-outline-success" id="search__SH" type="submit">Search</button>
            </form>
+          
+          <script type="text/javascript">
+            document.getElementById('searchform').onsubmit = function() {
+                window.location = 'http://www.google.com/search?q=' + document.getElementById('search__SH').value;
+                return false;
+            }
+          </script>
         </div>
       </div>
     </info-then-search>
