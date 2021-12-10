@@ -4,7 +4,7 @@ html, body { background-color: #181a17 !important; color: #e8e8e8 !important; }
 ::-webkit-scrollbar { width: 6px; } ::-webkit-scrollbar-track { background: transparent; } ::-webkit-scrollbar-thumb { background: #3d4738; } ::-webkit-scrollbar-thumb:hover { background: #576650; }
 
 /* Container--Spaced */
-.spaced-top { margin-top: 3rem; }
+.spaced-top { margin-top: 20rem; }
 .spaced { margin-top: 1rem;}
 
 /* Header--options */
@@ -24,4 +24,4 @@ info-then-search a { color: green; text-decoration:none;} info-then-search a:hov
 
 /* copyright info */
 copyright { color: #3d3c3a; }
-.bottom-attached { margin-bottom: 1rem; margin-top: 20rem }
+.bottom-attached { margin-bottom: 1rem; margin-top: 1rem }
