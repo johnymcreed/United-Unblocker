@@ -29,14 +29,14 @@
       <div class="spanner">
         <span> Our Unblocker Uses Proxy Based Searches That Will Mostly Unblock Almost All Websites <br> From Cheap Ones Like <a href="github.com">Github <i class="fab fa-github"></i></a> all the way to <a href="youtube.com"> Youtube <i class="fab fa-youtube"></i></a></span>
         
-        <div class="search spaced">
+        <div id="form__SEARCH" class="search spaced">
            <form class="d-flex">
               <input class="form-control me-2 search-bar" type="search" placeholder="Search The Web (https://example.com)" aria-label="Search">
               <button class="btn btn-outline-success" id="search__SH" type="submit">Search</button>
            </form>
           
           <script type="text/javascript">
-            document.getElementById('searchform').onsubmit = function() {
+            document.getElementById('form__SEARCH').onsubmit = function() {
                 window.location = 'http://www.google.com/search?q=' + document.getElementById('search__SH').value;
                 return false;
             }
