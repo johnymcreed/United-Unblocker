@@ -1,1 +1,27 @@
-/* styles for unblocker */
+/* Background And Color Settings */
+html, body { background-color: #181a17 !important; color: #e8e8e8 !important; }
+
+::-webkit-scrollbar { width: 6px; } ::-webkit-scrollbar-track { background: transparent; } ::-webkit-scrollbar-thumb { background: #3d4738; } ::-webkit-scrollbar-thumb:hover { background: #576650; }
+
+/* Container--Spaced */
+.spaced-top { margin-top: 3rem; }
+.spaced { margin-top: 1rem;}
+
+/* Header--options */
+header { /* used space */ } 
+header .title { font-size: 42px; }
+
+/* Info and search bar */
+info-then-searh {padding: 5px;}
+info-then-search .spanner { margin-top: 2rem;}
+info-then-search a { color: green; text-decoration:none;} info-then-search a:hover { color: #4f8536;}
+  /* search bar */
+  .search { width: 40rem;}
+  .btn-outline-success { color: white !important; border: 1px solid white !important; } 
+  .btn-outline-success:hover {background-color: transparent !important; border: 1px solid #314f24 !important; color: #314f24 !important; }
+  .search-bar { background-color: transparent !important; color: white !important; }
+  .form-control:focus { border: 1px solid green !important; box-shadow: none !important;}
+
+/* copyright info */
+copyright { color: #3d3c3a; }
+.bottom-attached { margin-bottom: 1rem; margin-top: 20rem }
